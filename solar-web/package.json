@@ -1,0 +1,26 @@
+{
+  "name": "solar-web",
+  "version": "1.0.0",
+  "description": "web app for an iot platform",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "iot",
+    "solar",
+    "arduino",
+    "mqtt"
+  ],
+  "author": "hip_hap_lion",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.2",
+    "express": "^4.15.2",
+    "json2csv": "^3.7.3",
+    "mongoose": "^4.9.1",
+    "socket.io": "^1.7.3"
+  },
+  "devDependencies": {}
+}
